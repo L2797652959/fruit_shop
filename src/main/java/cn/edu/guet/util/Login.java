@@ -89,7 +89,7 @@ public class Login extends JFrame {
         });
         jPanel.add(login);
 
-        setSize(450,350);
+        setBounds(510,190,450,350);
         setVisible(true);//界面可视化
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
