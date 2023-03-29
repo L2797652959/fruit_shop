@@ -1,4 +1,6 @@
-package cn.edu.guet.util;
+package cn.edu.guet.main;
+
+import cn.edu.guet.util.ViewProduct;
 
 import javax.swing.*;
 
