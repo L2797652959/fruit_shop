@@ -26,6 +26,7 @@ public class Main {
     public Main(){
         jMenu.add(item01);//查看商品
         jMenu.add(item02);//添加商品
+
         jMenuBar.add(jMenu);
         jMenuBar.setBounds(0,0,100,30);
         jFrame = new JFrame("主界面");
