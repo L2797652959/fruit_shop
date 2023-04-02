@@ -13,9 +13,7 @@ public class Fruit {
     private Float f_sellprice;
     private Float f_number;
 
-    public int getF_id() {
-        return f_id;
-    }
+    public int getF_id() { return f_id; }
 
     public void setF_id(int f_id) {
         this.f_id = f_id;
@@ -45,11 +43,7 @@ public class Fruit {
         this.f_sellprice = f_sellprice;
     }
 
-    public Float getF_number() {
-        return f_number;
-    }
+    public Float getF_number() { return f_number; }
 
-    public void setF_number(Float f_number) {
-        this.f_number = f_number;
-    }
+    public void setF_number(Float f_number) { this.f_number = f_number; }
 }

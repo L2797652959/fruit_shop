@@ -25,7 +25,7 @@ public class ViewProduct {
 
     JTable table;
     JScrollPane jscrollpane = new JScrollPane();
-    private String columnNames[] = {"id", "商品名称", "售价/斤", "进价/斤","数量/斤"};
+    private String columnNames[] = {"id", "商品名称", "进价/斤", "售价/斤","数量/斤"};
     private Object[][] rowData = null;
     private Object[][] Data=null;
 
@@ -48,7 +48,7 @@ public class ViewProduct {
                 else{
                     sql = "SELECT * FROM FRUITS WHERE F_NAME=%"+name+"%";
                 }*/
-        String sql = "SELECT * FROM FRUITS";
+        String sql = "SELECT * FROM FRUITS ORDER BY F_ID";
         PreparedStatement pstmt;
         ResultSet rs;
         try {
